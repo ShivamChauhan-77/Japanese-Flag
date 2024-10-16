@@ -1,0 +1,20 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+.container{
+    height:200px;
+    width:calc(200px*3/2);
+    margin:2em auto;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.red{
+    height:calc(200px*3/5);
+    width:calc(200px*3/5);
+    background-color: #BC022C;
+    border-radius:50%;
+}
